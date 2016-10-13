@@ -5,6 +5,8 @@ body{
 h1{
 	font-size: 40px;
 	font-family: 'Poppins', sans-serif;
+	font-weight: medium;
+	margin-bottom: 0;
 }
 p{
 	margin-top: 0;
@@ -36,23 +38,23 @@ p{
 
 .floorImage {
     width: 100%;
+    height: auto;
     display: flex;                    /* establish flex container */
     position: relative;               /* establish nearest positioned ancestor for
                                          absolute positioning */
 }
-/*.background-image {
-	position: relative;
-}*/
 .photoText {
+	color: rgb(9, 70, 154);
     position: absolute;  
     left: 50%;                        /* horizontal alignment */
-    top: 50%;                         /* vertical alignment */
+    top: 77%;                         /* vertical alignment */
     transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;
                                         explanation: http://stackoverflow.com/q/36817249 */
  }
 .column {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .margin {
 	display: flex;
