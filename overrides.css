@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	margin-top: 0;
+}
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.contact {
+	padding: 5px;
+}
+.white {
+	background: white;
+	color: rgb(9, 70, 154);
+}
+.blue {
+	color: white;
+    background: rgb(69, 150, 202); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(90deg, rgb(69, 150, 202), rgb(7, 54, 184)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, rgb(69, 150, 202), rgb(7, 54, 184)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, rgb(69, 150, 202), rgb(7, 54, 184)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, rgb(69, 150, 202), rgb(7, 54, 184)); /* Standard syntax (must be last) */
+}
+
+.floorImage {
+    width: 100%;
+    display: flex;                    /* establish flex container */
+    position: relative;               /* establish nearest positioned ancestor for
+                                         absolute positioning */
+}
+/*.background-image {
+	position: relative;
+}*/
+.photoText {
+    position: absolute;  
+    left: 50%;                        /* horizontal alignment */
+    top: 50%;                         /* vertical alignment */
+    transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;
+                                        explanation: http://stackoverflow.com/q/36817249 */
+ }
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.margin {
+	display: flex;
+	width: 17%;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 66%;
+}
+.why{
+	font-size: 40px;
+}
+.textbox {
+	font-size: 12px;
+	padding-left: 12px;
+	align-content: flex-end;
+}
+.textboxTitle {
+	font-size: 14px;
+}
+.rightColumn {
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+}
+.padded {
+	padding: 15px;
+}
+
